@@ -1,0 +1,35 @@
+html{
+	overflow:hidden;
+	color:white;
+}
+
+ul#linklist{
+	position:absolute;
+	bottom:20px;
+	list-style-type: none;
+}
+
+ul#linklist li{
+	display:inline-block;
+}
+
+
+
+body{
+	height:1080px;
+	width:100%;
+	background: #333333; /* Old browsers */
+	background: -moz-linear-gradient(top, #333333 0%, #101518 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333333), color-stop(100%,#101518)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #333333 0%,#101518 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #333333 0%,#101518 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #333333 0%,#101518 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #333333 0%,#101518 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#101518',GradientType=0 ); /* IE6-9 */
+}
+
+footer{
+	position:absolute;
+	color:white;
+	bottom:0px;
+}
