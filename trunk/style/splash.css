@@ -1,0 +1,39 @@
+#frontImg{
+	-o-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+	
+	-o-transition: background opacity 1s ease-in-out;
+	-ms-transition: background 1s ease-in-out;
+	-moz-transition: background 1s ease-in-out;
+	-webkit-transition: background opacity 1s ease-in-out;
+	
+	position:absolute;
+	left:50%;
+	width: 567px;
+	height:454px;
+	background:url(../photos/3.jpg) no-repeat;
+	background-size:cover;
+	margin-left:-283px;
+	top:50%;
+	margin-top:-227px;
+	opacity:1;
+}
+
+#frontImg:hover{
+	opacity:.9;
+}
+
+#splashButton{
+	position:absolute;
+	background:url(../img/Enter.png);
+	background-size:100% 100%;
+	width:110px;
+	height:23px;
+	
+	left:50%;
+	margin-left:-55px;
+	top:72%;
+	pointer-events:none;
+}

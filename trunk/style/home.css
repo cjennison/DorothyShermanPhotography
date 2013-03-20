@@ -1,0 +1,151 @@
+#slider-container{
+	position:absolute;
+	width:1100px;
+	height:500px;
+	overflow:hidden;
+	left:50%;
+	margin-left:-550px;
+	top:170px;
+}
+
+#image-slider{
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	position:absolute;
+	width:300%;
+}
+
+.slider-img{
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	width:300px;
+	margin-bottom:0px;
+	display:inline-block;
+	margin-left:20px;
+	margin-right:20px;
+	opacity:.7;
+	-moz-box-shadow: 3px 3px 4px #000;
+
+	-webkit-box-shadow: 3px 3px 4px #000;
+	
+	box-shadow: 3px 3px 4px #000;
+	}
+
+.slider-img.center{
+	width:400px;
+	margin-bottom:-40px;
+	opacity:1;
+}
+
+.slider-img:hover{
+	opacity:1;
+}
+
+#category-container{
+	position: absolute;
+	width: 900px;
+	height: 100px;
+	overflow: hidden;
+	left: 50%;
+	margin-left: -475px;
+	bottom: 23%;
+}
+
+#categories-list{
+	list-style-type: none;
+}
+
+#categories-list li{
+	display:inline-block;
+}
+
+a span{
+	color:white;
+}
+
+.category-label{
+	position: absolute;
+	top: -3px;
+	margin-left: 18px;
+	text-align: center;
+	width: 100px;
+}
+
+.category-img{
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	width:100px;
+	margin-bottom:0px;
+	display:inline-block;
+	margin-left:20px;
+	margin-right:20px;
+	opacity:.7;
+	-moz-box-shadow: 3px 3px 4px #000;
+
+	-webkit-box-shadow: 3px 3px 4px #000;
+	
+	box-shadow: 3px 3px 4px #000;
+}
+
+.category-img:hover{
+	opacity:1;
+}
+
+#leftBtn{
+	position:absolute;
+	left:20px;
+	background:url(../img/Arrow.png) no-repeat;
+	background-size:100% 100%;
+	width:25px;
+	height:38px;
+	cursor:pointer;
+	top: 290px;
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+}
+
+#rightBtn{
+	position:absolute;
+	right:20px;
+	background:url(../img/Arrow.png) no-repeat;
+	background-size:100% 100%;
+	width:25px;
+	height:38px;
+	cursor:pointer;
+	top: 290px;
+	
+}
+
+
+#search-box{
+	position:absolute;
+	left:50%;
+	margin-left:-150px;
+	bottom:90px;
+}
+
+#search-box input[type=text]{
+	width:300px;
+	height:25px;
+		font-family:Myriad Pro;
+
+	text-align: center;
+	background:#AAAAAA;
+	color:#222222;
+	border:2px solid black;
+	font-size:18px;
+}
+
+#magnifying-glass{
+	position:absolute;
+	left:5px;
+	top:2px;
+	pointer-events:none;
+}
