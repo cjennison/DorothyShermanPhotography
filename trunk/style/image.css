@@ -1,0 +1,135 @@
+html{
+	min-height:100%;
+}
+
+body{
+	height:inherit;
+}
+
+#frontImg{
+	-o-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+	
+	-o-transition: background opacity 1s ease-in-out;
+	-ms-transition: background 1s ease-in-out;
+	-moz-transition: background 1s ease-in-out;
+	-webkit-transition: background opacity 1s ease-in-out;
+	
+	position:absolute;
+	text-align:center;
+	width: 100%;
+	
+	top:100px;
+	
+	opacity:1;
+}
+
+#frontImg:hover{
+	opacity:.9;
+}
+
+#frontImg #frimg{
+	width:600px;
+	max-width:1000px;
+}
+
+#title{
+	top:20px;
+}
+
+
+#enlarger{
+	-o-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+	width:100%;
+	opacity:0;
+}
+
+#enlarger #shadowbox{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:1600px;
+	background:rgba(0,0,0,.9);
+}
+
+#enlarger #img{
+	-o-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+	
+	-o-transition: background opacity 1s ease-in-out;
+	-ms-transition: background 1s ease-in-out;
+	-moz-transition: background 1s ease-in-out;
+	-webkit-transition: background opacity 1s ease-in-out;
+	
+	position:absolute;
+	text-align:center;
+	width: 100%;
+	
+	top:50px;
+	
+	opacity:1;
+}
+
+#img img{
+	width:70%;
+	max-width:1000px;
+}
+
+#closebtn{
+	position:absolute;
+	left:90%;
+	top:20px;
+	
+	background:url(../img/closebtn.png) no-repeat;
+	width:30px;
+	height:30px;
+	background-size:100% 100%;
+	cursor:pointer;
+}
+
+#back-button{
+	position:absolute;
+	left:20px;
+	top:20px;
+	background:url(../img/Arrow.png) no-repeat;
+	width:30px;
+	height:50px;
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	cursor:pointer;
+}
+
+.back-text{
+	position:absolute;
+	text-decoration: none;
+	color:white;
+	left:60px;
+	top:40px;
+}
+
+#description-container{
+	position:absolute;
+	bottom:-100px;
+	left:50%;
+	width:400px;
+	height:100px;
+	margin-left:-200px;
+}
+
+#name{
+	text-align: center;
+	font-size:2em;
+}
+
+#description{
+	text-align: center;
+}

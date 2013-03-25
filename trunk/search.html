@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dorothy Sherman Photography</title>
+		<link rel="stylesheet" href="style/main.css">
+		<link rel="stylesheet" href="style/search.css">
+		<link rel="stylesheet" href="style/fonts.css">
+		
+		<script src="lib/jquery.js"> </script>
+		<script src="scripts/search.js"> </script>
+		
+	</head>
+	<body onload="init()">
+		<a href="home.html">
+			<div id="back-button"> 
+				
+			</div>
+			<span class="back-text">Back</span>
+		</a>
+		<a href="home.html"><div id="title"> </div></a>
+
+		<div id="results-container">
+			<ul id="results-list">
+				
+			</ul>
+		</div>
+		
+		<span id="showing">Showing Results for <span id="searchname">Wildlife</span></span>
+		<div id="search-box">
+			<input id="searchbox" type="text" value="Search" onclick="this.value='';" onblur="this.value=!this.value?'Search':this.value;" > </input>
+			<img id="magnifying-glass" src="img/Magnifyingglass.png" width="17px">
+		</div>
+		
+		<script>
+			$("#searchbox").keyup(function(event){
+			    if(event.keyCode == 13){
+			    	document.location.href = "file:///C:/Users/hitpoint/Documents/GitHub/DorothyShermanPhotography/trunk/search.html?" + "searchQuery=" + $('#searchbox').val();
+			        $("#searchbox").click();
+			        console.log("Searching..")
+			    }
+			});
+		</script>
+		
+		<footer>Copyright 2013 &copy; Dorothy Sherman Photography. All Rights Reserved.</footer>
+	</body>
+</html>

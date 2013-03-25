@@ -50,7 +50,7 @@ body{
 }
 
 footer{
-	position:absolute;
+	position:fixed;
 	color:white;
 	font-family:Myriad Pro;
 	bottom:20px;
