@@ -1,0 +1,8 @@
+- Font options (Try to find a mix of first draft font and second draft font)
+- About page
+- Formats
+- Foodamins click button
+- Fix hands picture (burning so its closer to original)
+- Database for catagories
+- Resolution fix for different computers
+- Move 'x' closer to picture. Too out of the way right now.
