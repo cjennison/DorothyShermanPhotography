@@ -149,3 +149,38 @@ a span{
 	top:2px;
 	pointer-events:none;
 }
+
+#about{
+	position: absolute;
+	left:50%;
+	top:90px;
+	width:200px;
+	text-align: center;
+	margin-left:-360px;
+	
+}
+
+#foodamins{
+	position: absolute;
+	left:50%;
+	top:90px;
+	width:200px;
+	text-align: center;
+	margin-left:200px;
+	
+}
+
+.secondary-link{
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	text-decoration: none;
+	color:white;
+	font-size:24px;
+	opacity:.6;
+}
+
+.secondary-link:hover{
+	opacity:.9;
+}

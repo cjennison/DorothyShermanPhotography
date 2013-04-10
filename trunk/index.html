@@ -14,7 +14,7 @@
 				setInterval(function(){
 					var rand = Math.floor(Math.random()*5);
 					$(img).css("background", "url(photos/" + rand + ".jpg) no-repeat")
-					$(img).css("background-size", "cover")
+					$(img).css("background-size", "contain")
 				},5000);			
 				preloader();	
 			})
@@ -48,7 +48,7 @@
 		<a href="home.html"><div id="frontImg"> </div></a>
 		<div id="title"> </div>
 		
-		<div id="splashButton"> </div>
+		<a href="home.html"> <div id="splashButton"> </div></a>
 		
 		<ul id="linklist">
 			<li>facebook</li>
