@@ -1,0 +1,16 @@
+Table Name: Picture
+
+id
+name
+url
+primary_key
+secondary_key
+
+
+Stages
+
+1: Get All Pictures from Database
+2: Parse into JSON Object
+3: Loop through each object
+3.1: Split Primary and Secondary Tags
+3.2: Search through primary and secondary tags, if match - Display
