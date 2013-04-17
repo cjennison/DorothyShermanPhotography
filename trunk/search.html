@@ -11,6 +11,7 @@
 		
 	</head>
 	<body onload="init()">
+		<img src="php/search.php" />
 		<a href="home.html">
 			<div id="back-button"> 
 				
@@ -34,7 +35,7 @@
 		<script>
 			$("#searchbox").keyup(function(event){
 			    if(event.keyCode == 13){
-			    	document.location.href = "file:///C:/Users/hitpoint/Documents/GitHub/DorothyShermanPhotography/trunk/search.html?" + "searchQuery=" + $('#searchbox').val();
+			    	document.location.href = "http://reaktantstudios.com/outgoing/sherman/search.html?" + "searchQuery=" + $('#searchbox').val();
 			        $("#searchbox").click();
 			        console.log("Searching..")
 			    }

@@ -4,6 +4,11 @@ var dest;
 
 
 function init(){
+	
+	console.log(complex);
+	
+	
+	
 	var hash = getUrlVars();
 	
 	console.log(hash["photoid"]);
@@ -15,7 +20,7 @@ function init(){
 	if(dest == "home"){
 		$("#back").attr("href", "home.html");
 	} else {
-		$("#back").attr("href", "search.html?searchQuery=" + dest);
+		$("#back").attr("href", "search.php?searchQuery=" + dest);
 	}
 	
 	
@@ -26,6 +31,15 @@ function init(){
 		startEnlarger();
 	});
 	
+	
+	
+	for(var i=0;i<complex.length;i++){
+		if(imageid == complex[i].id){
+			$("#name").html(complex[i].name);
+			$("#description").html(complex[i].description);
+		}
+	}
+	
 }
 
 function startEnlarger(){
@@ -33,6 +47,7 @@ function startEnlarger(){
 	$("#enlarger").css('pointer-events', "");
 	
 	$("#shadowbox").bind('click', function(e){
+		console.log("CLICKED SHADOW");
 		$("#enlarger").css('opacity', 0)
 		$("#enlarger").css('pointer-events', "none")
 	});

@@ -18,12 +18,12 @@
 		<div id="slider-container">
 			
 			<div id="image-slider" style="left:0px;">
-				<a href="image.html?photoid=0&dest=home"><img id="0" data-num="0" class="slider-img" src="photos/0.jpg"></a>
-				<a href="image.html?photoid=1&dest=home"><img id="1" data-num="1" class="slider-img center" src="photos/1.jpg"></a>
-				<a href="image.html?photoid=2&dest=home"><img id="2" data-num="2" class="slider-img" src="photos/2.jpg"></a>
-				<a href="image.html?photoid=3&dest=home"><img id="3" data-num="3" class="slider-img" src="photos/7.jpg"></a>
-				<a href="image.html?photoid=4&dest=home"><img id="4" data-num="4" class="slider-img" src="photos/4.jpg"></a>
-				<a href="image.html?photoid=5&dest=home"><img id="5" data-num="5" class="slider-img" src="photos/5.jpg"></a>
+				<a href="image.php?photoid=0&dest=home"><img id="0" data-num="0" class="slider-img" src="photos/0.jpg"></a>
+				<a href="image.php?photoid=1&dest=home"><img id="1" data-num="1" class="slider-img center" src="photos/1.jpg"></a>
+				<a href="image.php?photoid=2&dest=home"><img id="2" data-num="2" class="slider-img" src="photos/2.jpg"></a>
+				<a href="image.php?photoid=3&dest=home"><img id="3" data-num="3" class="slider-img" src="photos/7.jpg"></a>
+				<a href="image.php?photoid=4&dest=home"><img id="4" data-num="4" class="slider-img" src="photos/4.jpg"></a>
+				<a href="image.php?photoid=5&dest=home"><img id="5" data-num="5" class="slider-img" src="photos/5.jpg"></a>
 			</div>
 			
 		</div>
@@ -32,12 +32,12 @@
 		
 		<div id="category-container">
 			<ul id="categories-list">
-				<li><a href="search.html?searchQuery=Scenary"><span class="category-label">Scenary</span><img id="0" class="category-img" src="photos/0.jpg"></a></li>
-				<li><a href="search.html?searchQuery=Floral"><span class="category-label">Floral</span><img id="0" class="category-img" src="photos/1.jpg"></a></li>
-				<li><a href="search.html?searchQuery=Wildlife"><span class="category-label">Wildlife</span><img id="0" class="category-img" src="photos/2.jpg"></a></li>
-				<li><a href="search.html?searchQuery=Butterflies"><span class="category-label">Butterflies</span><img id="0" class="category-img" src="photos/7.jpg"></a></li>
-				<li><a href="search.html?searchQuery=Reptiles"><span class="category-label">Reptiles</span><img id="0" class="category-img" src="photos/4.jpg"></a></li>
-				<li><a href="search.html?searchQuery=Children"><span class="category-label">Children</span><img id="0" class="category-img" src="photos/5.jpg"></a></li>
+				<li><a href="search.php?searchQuery=landscape"><span class="category-label">Scenary</span><img id="0" class="category-img" src="photos/0.jpg"></a></li>
+				<li><a href="search.php?searchQuery=flower"><span class="category-label">Floral</span><img id="0" class="category-img" src="photos/1.jpg"></a></li>
+				<li><a href="search.php?searchQuery=animal"><span class="category-label">Wildlife</span><img id="0" class="category-img" src="photos/2.jpg"></a></li>
+				<li><a href="search.php?searchQuery=butterfly"><span class="category-label">Butterflies</span><img id="0" class="category-img" src="photos/7.jpg"></a></li>
+				<li><a href="search.php?searchQuery=reptile"><span class="category-label">Reptiles</span><img id="0" class="category-img" src="photos/4.jpg"></a></li>
+				<li><a href="search.php?searchQuery=children"><span class="category-label">Children</span><img id="0" class="category-img" src="photos/5.jpg"></a></li>
 				
 			</ul>
 		</div>
@@ -50,7 +50,7 @@
 		<script>
 			$("#searchbox").keyup(function(event){
 			    if(event.keyCode == 13){
-			    	document.location.href = "file:///C:/Users/hitpoint/Documents/GitHub/DorothyShermanPhotography/trunk/search.html?" + "searchQuery=" + $('#searchbox').val();
+			    	document.location.href = "http://reaktantstudios.com/outgoing/sherman/search.php?" + "searchQuery=" + $('#searchbox').val();
 			        $("#searchbox").click();
 			        console.log("Searching..")
 			    }
