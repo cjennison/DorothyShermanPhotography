@@ -74,7 +74,7 @@
 				
 			</ul>
 		</div>
-		
+		<span id="category-name"></span>
 		<span id="showing">Showing Results for <span id="searchname"></span></span>
 		<div id="search-box">
 			<input id="searchbox" type="text" value="Search" onclick="this.value='';" onblur="this.value=!this.value?'Search':this.value;" > </input>

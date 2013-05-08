@@ -4,11 +4,14 @@ var i = 0;
 var k = 0;
 
 var queryName;
-
+var category;
+var catName;
 
 //Populate results from search
 function init(){
-	
+	var vars = getUrlVars();
+	category = vars["category"]
+	console.log(category);
 	//console.log(complex);
 	var getQuery = setInterval(function(){
 		if(complex != null){
@@ -17,9 +20,31 @@ function init(){
 		}
 	},2500)
 	
-	
+	if(category == "true"){
+		removeSearch();
+	} else {
+		showSearch();
+	}
 	//startSearchQuery();
 
+}
+function showSearch(){
+	console.log("SHOWING")
+	$("#showing").css("display", "block");
+	$("#search-box").css("display", "block");
+	$("#category-name").css("display", "none");
+}
+
+
+function removeSearch(){
+	$("#showing").css("display", "none");
+	$("#search-box").css("display", "none");
+	
+	var vars = getUrlVars();
+	catName = vars["name"];
+	
+	$("#category-name").html(catName);
+	
 }
 
 function startSearchQuery(){
