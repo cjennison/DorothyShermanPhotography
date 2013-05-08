@@ -8,7 +8,7 @@
 	width:500px;
 	height:500px;
 	left:50%;
-	top:150px;
+	top:190px;
 	margin-left:-250px;
 	
 	min-width:300px;
@@ -17,8 +17,10 @@
 #bio-title{
 	float:right;
 	position:absolute;
-	width:200px;
-	margin-left:50px;
+	width:300px;
+	left:50%;
+	margin-left: -100px;
+	top:100px;
 }
 
 #bio-text{
