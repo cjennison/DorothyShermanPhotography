@@ -48,11 +48,11 @@
 
 #category-container{
 	position: absolute;
-	width: 900px;
+	width: 1200px;
 	height: auto;
 	overflow: hidden;
 	left: 50%;
-	margin-left: -475px;
+	margin-left: -600px;
 	bottom: 23%;
 }
 
